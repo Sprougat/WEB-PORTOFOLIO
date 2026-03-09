@@ -1,16 +1,4 @@
-/* ============================================
-   LUXURY PORTFOLIO – style.css
-   Rafaldo Al Maqdis
-   Color Palette:
-     Black:      #0f0f0f
-     Dark Green: #0f2a1d
-     Dark Brown: #3b2a1a
-     Gold:       #d4af37
-     Soft Gold:  #c9a227
-     White Acc:  #f5f5f5
-   ============================================ */
 
-/* ---- RESET & ROOT ---- */
 :root {
   --black:       #0f0f0f;
   --dark-green:  #0f2a1d;
@@ -740,9 +728,6 @@ a { text-decoration: none; color: inherit; }
   color: #ff9999;
 }
 
-/* ============================================
-   FOOTER
-   ============================================ */
 .footer {
   background: #080808;
   border-top: 1px solid rgba(212,175,55,0.1);
@@ -753,9 +738,6 @@ a { text-decoration: none; color: inherit; }
 .footer-tagline { font-size: 0.75rem; letter-spacing: 3px; text-transform: uppercase; color: #555; margin-bottom: 20px; }
 .footer-copy { font-size: 0.75rem; color: #444; letter-spacing: 1px; }
 
-/* ============================================
-   SCROLL REVEAL ANIMATIONS
-   ============================================ */
 .reveal,
 .reveal-left,
 .reveal-right,
@@ -784,9 +766,6 @@ a { text-decoration: none; color: inherit; }
 .row > .reveal:nth-child(3) { transition-delay: 0.24s; }
 .row > .reveal:nth-child(4) { transition-delay: 0.36s; }
 
-/* ============================================
-   RESPONSIVE
-   ============================================ */
 @media (max-width: 991px) {
   .hero-photo-col { margin-top: 50px; }
   .profile-wrapper { width: 220px; height: 220px; }

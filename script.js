@@ -1,17 +1,3 @@
-/* ============================================
-   LUXURY PORTFOLIO – script.js
-   Rafaldo Al Maqdis
-   Features:
-   - Scroll Progress Indicator
-   - Sticky Navbar behavior
-   - Super Smooth Scroll (RAF-based)
-   - Scroll Reveal Animations
-   - Skill Bar Animations
-   - GitHub AJAX Fetch
-   - Contact Form AJAX (jsonplaceholder)
-   - Parallax Hero
-   ============================================ */
-
 // ============ SCROLL PROGRESS ============
 function updateScrollProgress() {
   const el = document.getElementById('scroll-progress');
